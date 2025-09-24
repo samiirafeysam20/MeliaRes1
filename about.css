@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 2rem;
+    
+    
+}
+.logo img{
+    width: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+   gap: 2rem;
+   align-items: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.menu ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 10px;
+        color: #191919;
+     }
+.nav-buton{
+    outline: none;
+    border: none;
+    color: #F9F9F9;
+    padding: 10px;
+    background-color: #FD6060;
+}
+
+
+.mini{
+  background-color: #F9F9F9;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+
+.about{
+    margin-top: 4rem;
+}
+.about-text .title{
+    font-size: 15px;
+    color:#FD6060;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.about-text h1{
+    font-size: 30px;
+    color: #191919;
+    margin-bottom: 15px;
+}
+.about-text p{
+    font-size: 20px;
+   color: #555555;
+    margin-bottom: 15px;
+}
+.about-text img{
+    width: 95%;
+    height: auto;
+}
+
+.about-delivery{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    gap: 5rem;
+    padding: 50px 0px;
+}
+.about-delivery .delivery-image img{
+    width: 200px;
+}
+.delivery-image::before,
+.delivery-image::after{
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;           
+  opacity: 0.95;
+}
+.delivery-image::before{
+  width: 110px;
+  height: 110px;
+  background: #ff6b6b;  
+  left: 138px;
+  bottom:  -48px;
+}
+.delivery-image::after{
+  width: 90px;
+  height: 90px;
+  background: #ffd166;   
+  left: 230px;
+  bottom: -350px;
+}
+.about-delivery .delivery-text h3{
+    font-size: 15px;
+    color:#FD6060;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.about-delivery .delivery-text p{
+    max-width: 500px;
+    line-height: 1.6;
+    color: #555555;
+    margin-bottom: 15px;
+    
+}
+
+.promo-container {
+  background: url('Assets/Mask\ group.png') no-repeat center center;
+  height: 100vh;
+  position: relative;
+  border-radius: 8px  ;
+}
+
+.overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-content {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.promo-content h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  width: 60%;
+  min-width: 200px;
+}
+
+.subscribe-form button {
+  padding: 10px 40px;
+  background-color: #fd6060;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color:#fd6060;
+}
+
+
+.foot-cont .foot-logo img{
+    width: 40px;
+}
+.foot-cont .foot-logo .foot-icons img{
+    width: 30px;
+
+}
+.foot-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.foot-cont .foot-logo p{
+    width: 50%;
+}
+.foot-cont .foot-about ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-about ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+        color: #555555;
+     }
+
+.foot-cont .foot-company ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-company ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color: #555555;
+     }
+
+.foot-cont .foot-support ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-support ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color: #555555;
+     }
+.foot-cont .foot-get-touch ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-get-touch ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color:#555555;
+}

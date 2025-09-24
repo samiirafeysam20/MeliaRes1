@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 2rem;
+    
+    
+}
+.logo img{
+    width: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+   gap: 2rem;
+   align-items: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+   
+}
+.menu ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 10px;
+        color: #191919;
+     }
+.nav-buton{
+    outline: none;
+    border: none;
+    color: #F9F9F9;
+    padding: 15px;
+    background-color: #FD6060;
+    border-radius: 8px;
+}
+
+.mini{
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.map-image img{
+    width: 700px;
+    margin-top: 2rem;
+    padding-right: 20%;
+}
+.contact-cont{
+  display: flex;
+  justify-content: center;  
+  flex-direction: column;        
+  padding: 40px;
+  background: #fff;
+  padding-left: 20%;
+}
+.contact-cont{
+    width: 100%;
+    max-width: 800px;
+    
+}
+.contact-cont h2{
+    font-family: 'relaway',sans-serif;
+    font-size: 18px;
+    color:#FD6060;
+    font-weight: 500;
+}
+.contact-cont .contact-form input,
+.contact-cont .contact-form textarea{
+    background-color: #F9F9F9;
+   width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+.form-btn{
+    background: #FD6060;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.contact-form .subject{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.contact-info{
+      display: flex;
+  justify-content: center;
+  gap: 50px;       
+  padding: 30px 20px;
+  margin-bottom: 3rem;
+ 
+}
+.contact-item img{
+    width: 30px;
+}
+.contact-item h2{
+    display: inline-block;
+    font-size: 15px;
+    color: #191919;
+}
+.contact-item{
+    display: flex;
+    
+}
+.contact-item h2{
+font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px 0;
+  color: #333;
+  }
+.foot-cont .foot-logo img{
+    width: 40px;
+}
+.foot-cont .foot-logo .foot-icons img{
+    width: 30px;
+
+}
+.foot-cont{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.foot-cont .foot-logo p{
+    width: 50%;
+}
+.foot-cont .foot-about ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-about ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+        color: #555555;
+     }
+
+.foot-cont .foot-company ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-company ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color: #555555;
+     }
+
+.foot-cont .foot-support ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-support ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color: #555555;
+     }
+.foot-cont .foot-get-touch ul li{
+    list-style: none;
+   
+}
+.foot-cont .foot-get-touch ul li a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 10px;
+         color:#555555;
+}
