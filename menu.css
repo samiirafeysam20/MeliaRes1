@@ -226,6 +226,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+        line-height: 150%;
+
 }
 .foot-cont .foot-logo p{
     width: 50%;

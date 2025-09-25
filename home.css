@@ -310,7 +310,7 @@ button:hover {
 
 .testimonials {
   text-align: center;
-  max-width: 700px;
+  
   margin: auto;
 }
 
@@ -331,6 +331,7 @@ button:hover {
 .testimonial-container{
   display: flex;
   width: 100%;
+  padding-left: 20%;
   
 }
 
@@ -349,7 +350,6 @@ button:hover {
   position: absolute;
   right: 18%;
   top: 145rem;
- 
 
   
 
@@ -384,8 +384,19 @@ button:hover {
 .testimonial-text {
   color: #191919;
   margin-top: 10px;
+ 
+ font-size:1.4rem ;
+}
+
+.testimonial-tex {
+  color: #9b9393c2;
+  margin-top: 10px;
   font-size:1.4rem ;
 }
+
+
+
+
 
 .see-more {
   margin-top: 50px;
@@ -476,6 +487,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    line-height: 150%;
 }
 .foot-cont .foot-logo p{
     width: 50%;
@@ -490,6 +502,7 @@ button:hover {
         font-weight: 500;
         padding: 0px 10px;
         color: #555555;
+        
      }
 
 .foot-cont .foot-company ul li{
